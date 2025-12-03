@@ -2,11 +2,105 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project</title>
+    <title>Omega Fire Ministries, Oakland</title>
+
+    <!-- using this for linking styles CSS-->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>This is the first step to my Church Website</h1>
-  
+
+    <!-- using this for the header and logo, title-->
+    <header class="site-header">
+        <img src="OFMLOGO.jpg" alt="Church Logo" class ="logo">
+
+        <div class="title-wrapper">
+            <h1>OMEGA FIRE MINISTRIES (OFM), OAKLAND</h1>
+            <p class="intro">You are welcome. </p>
+        </div>
+    </header>
+
+   <!-- section for navigation area--> 
+<nav class ="nav">
+    <a href="#home" class="nav-link active">Home</a>
+    <a href="#about" class="nav-link">About</a>
+    <a href="#sunday-services" class="nav-link">Sunday Services</a>
+    <a href="#programs" class="nav-link">Programs</a>
+    <a href="#support" class="nav-link"> Support Our Ministry </a>
+    <a href="#contact" class="nav-link">Contact Us</a>
+</nav>
+
+     <!-- Home tab-->
+    <section id = "home" 
+             class="section section-active hero">
+    <h2> You Are Welcome. </h2>
+    <p> Our Time Has Come!</p>
+    <a href="#sunday-services" class="btn">
+        Worship with us every Sunday from 10:00 AM - 1:00 PM,
+        at 3945 San Juan Street, Oakland, CA 94602.
+    </a>
+    </section>
+   
+   <!-- About tab-->
+    <section id ="about" 
+             class="section" >
+        <h2> About OFM </h2>
+        <p> Omega Fire Ministries, Oakland is a branch connected to the Head ministry in Auchi Edo State Nigeria, West Africa.
+            Our community is a safe place to pursue intimacy with God, knowing that in His loving embrace, 
+            we find our true worth and purpose.</p>
+        <p>Location: 3945 San Juan Street, Oakland, CA 94602</p>
+    
+    </section>
+    
+    
+    <!-- Sunday Services tab-->
+    <section id="sunday-services" 
+             class="section section-alt">
+            <h2>Sunday Services</h2>
+            <p>Our Sunday services can soon be viewed below</p>
+    </section>
+            
+    <!-- Programs tab-->
+    <section id="programs" 
+             class="section" >       
+            <h2>Programs</h2>
+            <p> Our Weekly programs are below.</p>
+            <ul class="list">
+                <li> Monday: Intercessory Prayer - 9:00 PM - 10:00 PM</li>
+                <li> Tuesday: Bible Teaching - 6:00 PM - 8:00 PM</li>
+                <li> Wednesday: Men's Fellowship Prayer - 9:00 PM - 10:00 PM</li>
+                <li> Thursday: Prayer - 9:00 PM - 10:00 PM</li>
+                </ul>
+
+    </section>
+    
+    <!-- Support Our Ministry tab-->
+    <section id="support"
+             class="section section-alt">
+            <h2>Support Our Ministry</h2>
+
+            <p>Ways to Give</p>
+            <p>
+                If God touches your heart to give to support the Ministry, please refer to the below.
+                1. Zelle: <strong>OMEGA FIRE MINISTRIES CHURCH OAKLAND.</strong>
+                    Zelle Number: <strong>707-333-7575</strong>
+                2. Cash App: <strong>$OMEGAOAKLAND</strong><br>
+                Phone Number: <strong>707-333-7575</strong>
+            </p>
+
+                <button id="tabForGiving"
+                        class="btn"> Give </button>
+                </section>
+
+            <!-- Contact Us tab-->
+                <section id="contact"
+                         class="section">
+                        <h2>Contact Us</h2>
+                         <p> You can reach us on +1 (707)333-7575.</p>
+                </section>
+
+                <script src="script.js"></script>
+
 </body>
 </html>
+
+

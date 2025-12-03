@@ -1,0 +1,115 @@
+/* Main page*/
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #357;
+    margin:0;
+    padding: 0;
+    background-color: #63C5DA;
+}
+
+/* Main Title page*/
+h1 {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+/* Bar for Navigation*/
+.intro {
+    text-align: center;
+    color: blue;
+    font-size: 20px;
+}
+
+.nav {
+    text-align: center;
+    background-color: #ADD8E6;
+    margin:0 10px;
+    font-size: 25px;
+    padding: 10px 0;
+}
+
+.nav a {
+    color: #000;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+/* Using this for showing lines under tabs when hovered*/
+.nav a:hover {
+    text-decoration: underline;
+}
+
+/* sections hidden by default and shown when active */
+.section {
+    padding: 20px 10%;
+    display: none;
+}
+
+/* For showing active and selected section */
+.section-active {
+    display: block;
+}
+
+/* background for some of the sections*/
+.section-alt {
+    background-color: #E5E6E4;
+}
+
+.hero {
+    text-align: center;
+    background-color: #3A6EA5;
+    color: #fff;
+}
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #ADD8E6;
+    COLOR: #2D3142;
+    text-decoration: none;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.btn:hover {
+    opacity: 1.0;
+}
+
+/* using this section programs*/
+.list {
+    margin-top: 10px;
+    padding-left: 25px;
+}
+
+/* using this to place logo next to title*/
+.site-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    background-color: #ADD8E6;
+}
+.logo {
+    width: 150px;
+    height: auto;
+    margin-right: 20px;
+}
+
+/* the text by the logo uses this wrapper*/
+.title-wrapper {
+    text-align: center;
+}
+
+/* using this to take out margin we do not need in the header titlle*/
+.site-header h1{
+    margin: 0;
+    font-size: 36px;
+}
+
+/* using this to take out margin we do not need in the header*/
+.site-header .intro {
+    margin: 5px 0 0 0;
+}
