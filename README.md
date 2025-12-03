@@ -5,5 +5,6 @@ I made a basic website for my church, that has navigation tabs like Home, About,
 
 
 
-DOM
+DOM:
+
 In my website first of all with the DOM, I made it show the description or texts inside the sections only, so it does not show some other's section's text instead of the current one being selected. I used the querySelectorAll() for the sections and navagtion links. Also, by selecting a particular links, it shows and all the other sections are hidden with the JavaScript event.preventDefault();, and used the event listener to not make the page jump. Now when I select the Give button, it gives a message.
